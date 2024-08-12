@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "trade-master-bot"
+version = "0.1.0"
+description = ""
+authors = ["Ashish Pandey <ashish.jnvm@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10"
+google-cloud-logging = "^3.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
